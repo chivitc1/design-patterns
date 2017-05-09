@@ -4,11 +4,13 @@ public class AdapterMain {
 
 	public static void main(String[] args) {
 
+		//Comment test git
 		SocketAdapter sockAdapter = new SocketObjectAdapterImpl();
 		Volt v3 = getVolt(sockAdapter, 3);
 		Volt v12 = getVolt(sockAdapter, 12);
 		Volt v120 = getVolt(sockAdapter, 120);
 
+		
 		System.out.println("v3 volts using Object Adapter=" + v3.getVolts());
 		System.out.println("v12 volts using Object Adapter=" + v12.getVolts());
 		System.out.println("v120 volts using Object Adapter=" + v120.getVolts());
